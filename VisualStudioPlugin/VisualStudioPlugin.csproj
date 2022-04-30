@@ -49,8 +49,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\BuildSolution.cs" />
+    <Compile Include="Commands\CodeAnalysis.cs" />
+    <Compile Include="Commands\Comment.cs" />
+    <Compile Include="Commands\Find.cs" />
+    <Compile Include="Commands\FindAndReplace.cs" />
+    <Compile Include="Commands\FormatDocument.cs" />
+    <Compile Include="Commands\FormatSelection.cs" />
+    <Compile Include="Commands\GoTo.cs" />
+    <Compile Include="Commands\NewProject.cs" />
+    <Compile Include="Commands\OpenProject.cs" />
+    <Compile Include="Commands\RunAllTests.cs" />
+    <Compile Include="Commands\Save.cs" />
+    <Compile Include="Commands\StartDebugging.cs" />
+    <Compile Include="Commands\StepDebugging.cs" />
+    <Compile Include="Commands\StepInto.cs" />
+    <Compile Include="Commands\StepOver.cs" />
+    <Compile Include="Commands\StopDebugging.cs" />
+    <Compile Include="Commands\TestExplorer.cs" />
+    <Compile Include="Commands\ToggleBookmark.cs" />
+    <Compile Include="Commands\ToggleBreakpoint.cs" />
+    <Compile Include="Commands\ToggleFullScreen.cs" />
+    <Compile Include="Commands\Uncomment.cs" />
+    <Compile Include="Commands\ViewErrorWindow.cs" />
+    <Compile Include="Commands\ViewOutput.cs" />
+    <Compile Include="Commands\ViewSolutionExplorer.cs" />
+    <Compile Include="Commands\ViewTaskList.cs" />
+    <Compile Include="Commands\ViewToolbox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TabWindows.cs" />
+    <Compile Include="Commands\TabWindows.cs" />
     <Compile Include="VisualStudioApplication.cs" />
     <Compile Include="VisualStudioPlugin.cs" />
   </ItemGroup>

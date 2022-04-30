@@ -9,7 +9,7 @@ namespace Loupedeck.VisualStudioPlugin
 
         }
 
-        protected override String GetProcessName() => "Microsoft Visual Studio 2022";
+        protected override String GetProcessName() => "devenv.exe";
 
         protected override String GetBundleName() => "";
     }

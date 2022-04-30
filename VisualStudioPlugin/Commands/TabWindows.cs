@@ -1,4 +1,4 @@
-﻿namespace Loupedeck.VisualStudioPlugin
+﻿namespace Loupedeck.VisualStudioPlugin.Commands
 {
     using System;
 
@@ -18,6 +18,11 @@
             {
                 this.Plugin.ClientApplication.SendKeyboardShortcut(VirtualKeyCode.F6, ModifierKey.Control);
             }
+        }
+
+        protected override void RunCommand(String actionParameter)
+        {
+            this.Plugin.ClientApplication.SendKeyboardShortcut(VirtualKeyCode.F4, ModifierKey.Control);
         }
     }
 }
